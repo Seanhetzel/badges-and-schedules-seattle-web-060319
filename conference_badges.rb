@@ -19,3 +19,4 @@ def assign_rooms(speaker)
   speaker
   
 end
+assign_rooms()
