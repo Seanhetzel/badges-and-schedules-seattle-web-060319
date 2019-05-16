@@ -7,7 +7,6 @@ def batch_badge_creator(names_array)
   names_array.each do |name|
     name.replace("Hello, my name is #{name}.")
   end
-  #names_array
 end
 
 def assign_rooms(speakers)
