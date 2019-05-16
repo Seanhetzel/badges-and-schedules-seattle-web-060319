@@ -12,11 +12,9 @@ end
 
 def assign_rooms(speaker)
   room = 1 
-  #speaker.each do |name|
-  #  speaker.replace("Hello, #{name}! You'll be assigned to room #{room}!")
-  #  room += 1 
-  #end
-  puts speaker
+  speaker.each do |name|
+    speaker.replace("Hello, #{name}! You'll be assigned to room #{room}!")
+    room += 1 
+  end
   
 end
-assign_rooms(["joe", "jack"])
