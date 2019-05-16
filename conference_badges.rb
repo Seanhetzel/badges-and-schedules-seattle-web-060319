@@ -19,4 +19,4 @@ def assign_rooms(speaker)
   speaker
   
 end
-assign_rooms()
+assign_rooms(["joe", "jack"])
