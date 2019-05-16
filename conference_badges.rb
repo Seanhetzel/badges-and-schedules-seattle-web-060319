@@ -16,7 +16,7 @@ def assign_rooms(speaker)
   #  speaker.replace("Hello, #{name}! You'll be assigned to room #{room}!")
   #  room += 1 
   #end
-  speaker
+  puts speaker
   
 end
 assign_rooms(["joe", "jack"])
