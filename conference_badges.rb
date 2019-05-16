@@ -9,16 +9,16 @@ def batch_badge_creator(names_array)
   end
 end
 
-def assign_rooms(speakers)
+def assign_rooms(names_array)
   room = 1 
-  speakers.each do |name|
+  names_array.each do |name|
     name.replace("Hello, #{name}! You'll be assigned to room #{room}!")
     room += 1 
   end
 end
 
-def printer
+def printer(names_array)
   badges = batch_badge_creator(names_array)
-  room_assignments = assign_rooms(speakers)
+  room_assignments = assign_rooms(names_array)
   
 end
