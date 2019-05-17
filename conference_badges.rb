@@ -8,7 +8,7 @@ def batch_badge_creator(names_array)
   names_array.each do |name|
     badges << ("Hello, my name is #{name}.")
   end
-  #badges
+  badges
 end
 
 def assign_rooms(names_array)
@@ -18,7 +18,7 @@ def assign_rooms(names_array)
     room_assignments << ("Hello, #{name}! You'll be assigned to room #{room}!")
     room += 1 
   end
-  #room_assignments
+  room_assignments
 end
 
 def printer(names_array)
