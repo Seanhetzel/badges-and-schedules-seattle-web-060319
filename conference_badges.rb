@@ -22,8 +22,8 @@ def printer(names_array)
   badges.each do |name|
     puts name 
   end
-  rooms = assign_rooms(names_array)
-  rooms.each do |name|
-    puts name
-  end
+  #rooms = assign_rooms(names_array)
+  #rooms.each do |name|
+  #  puts name
+  #end
 end
