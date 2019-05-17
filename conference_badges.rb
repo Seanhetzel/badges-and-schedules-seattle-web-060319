@@ -23,4 +23,5 @@ def printer(names_array)
   end
   assign_rooms(names_array).each do |name|
     puts name.chomp 
+  end
 end
