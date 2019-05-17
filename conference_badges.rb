@@ -15,6 +15,7 @@ def assign_rooms(names_array)
     name.replace("Hello, #{name}! You'll be assigned to room #{room}!")
     room += 1 
   end
+  names_array
 end
 
 def printer(names_array)
