@@ -11,10 +11,12 @@ end
 
 def assign_rooms(names_array)
   room = 1 
+  room_assignments = []
   names_array.each do |name|
-    name.replace("Hello, #{name}! You'll be assigned to room #{room}!")
+    room_assignments << ("Hello, #{name}! You'll be assigned to room #{room}!")
     room += 1 
   end
+  room_assignments
 end
 
 def printer(names_array)
